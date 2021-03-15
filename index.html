@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container bg rounded-3">
+        <h2>calculator</h2>
+        <form action="">
+            <div class="mb-3">
+                <input class="form-control clk" type="text">
+              </div>
+            <div class="mb-3">
+                <input type="button" class="rounded-3 but" value="7" onclick="dispBox('7')">
+                <input type="button" class="rounded-3 but" value="8" onclick="dispBox('8')">
+                <input type="button" class="rounded-3 but" value="9" onclick="dispBox('9')">
+                <input type="button" class="rounded-3 but" value="%" onclick="dispBox('%')">
+               
+            </div>
+            <div class="mb-3 ">
+                <input type="button" class="rounded-3 but" value="4" onclick="dispBox('4')">
+                <input type="button" class="rounded-3 but" value="5" onclick="dispBox('5')">
+                <input type="button" class="rounded-3 but" value="6" onclick="dispBox('6')">
+                <input type="button" class="rounded-3 but" value="*" onclick="dispBox('*')">
+                 
+            </div>
+            <div class="mb-3">
+                <input type="button" class="rounded-3 but" value="1" onclick="dispBox('1')">
+                <input type="button" class="rounded-3 but" value="2" onclick="dispBox('2')">
+                <input type="button" class="rounded-3 but" value="3" onclick="dispBox('3')">
+                <input type="button" class="rounded-3 but" value="-" onclick="dispBox('-')">
+                
+            </div>
+            <div class="mb-3">
+                <input type="button" value="0" class="rounded-3 but" onclick="dispBox('0')">
+                <input type="button" value="=" class="rounded-3 but" onclick="equal()">
+                <input type="button" value="del" class="rounded-3 but" onclick="del()">
+                <input type="button" value="+" class="rounded-3 but" onclick="dispBox('+')">
+                
+            
+              </div>
+        </form>
+
+    </div>
+
+    </form>
+
+</body>
+
+</html>
